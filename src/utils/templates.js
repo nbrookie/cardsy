@@ -57,7 +57,7 @@ const templates = [
     },
     {
         type       : "MASTERCARD",
-        pattern    : /^5[1-5]/,
+        pattern    : /^(5[1-5]|677189)|^(222[1-9]|2[3-6]\d{2}|27[0-1]\d|2720)/,
         spaces     : [4, 9, 14],
         lengths    : [16],
         cvcLengths : [3],
